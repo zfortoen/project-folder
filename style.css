@@ -1,0 +1,24 @@
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 20px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(255, 255, 255, 0.478);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.navbar a :hover{
+    background-color: rgb(255, 255, 255, 0.478);
+}
+.navbar ::-moz-list-bullet{
+    text-align: left;
+    float: right;
+}
+.list{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+}
